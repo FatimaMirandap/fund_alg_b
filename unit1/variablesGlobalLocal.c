@@ -9,8 +9,12 @@ char* date= "02-02-22T10:25:00z";
 int main(){
     date = "02-03-22T10:25:00z";
     int* hours= 22; //Local:main
+    float pi = 3.1416; // %f
+    char character = 'c';//%c
+    char* name = "Luissss"; //%s
+    int *adress = &hours; //%p
     hours = hours +2;
-    printf("hours:%d/n", hours);
+    printf("hours:%d, %s/n", hours);
     return 0;
 }
 //////////////////////////////
